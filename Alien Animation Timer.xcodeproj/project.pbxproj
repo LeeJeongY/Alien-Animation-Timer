@@ -12,6 +12,11 @@
 		FDEE414C2075ED0C00FE79F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE414A2075ED0C00FE79F0 /* Main.storyboard */; };
 		FDEE414E2075ED0C00FE79F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEE414D2075ED0C00FE79F0 /* Assets.xcassets */; };
 		FDEE41512075ED0C00FE79F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE414F2075ED0C00FE79F0 /* LaunchScreen.storyboard */; };
+		FDEE416A2075EE4A00FE79F0 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEE41652075EE4900FE79F0 /* frame1.png */; };
+		FDEE416B2075EE4A00FE79F0 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEE41662075EE4900FE79F0 /* frame4.png */; };
+		FDEE416C2075EE4A00FE79F0 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEE41672075EE4A00FE79F0 /* frame5.png */; };
+		FDEE416D2075EE4A00FE79F0 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEE41682075EE4A00FE79F0 /* frame2.png */; };
+		FDEE416E2075EE4A00FE79F0 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEE41692075EE4A00FE79F0 /* frame3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FDEE414D2075ED0C00FE79F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDEE41502075ED0C00FE79F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDEE41522075ED0C00FE79F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE41652075EE4900FE79F0 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame1.png; path = "../../../../../../alien (1) 2/frame1.png"; sourceTree = "<group>"; };
+		FDEE41662075EE4900FE79F0 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame4.png; path = "../../../../../../alien (1) 2/frame4.png"; sourceTree = "<group>"; };
+		FDEE41672075EE4A00FE79F0 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame5.png; path = "../../../../../../alien (1) 2/frame5.png"; sourceTree = "<group>"; };
+		FDEE41682075EE4A00FE79F0 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame2.png; path = "../../../../../../alien (1) 2/frame2.png"; sourceTree = "<group>"; };
+		FDEE41692075EE4A00FE79F0 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame3.png; path = "../../../../../../alien (1) 2/frame3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		FDEE41452075ED0C00FE79F0 /* Alien Animation Timer */ = {
 			isa = PBXGroup;
 			children = (
+				FDEE415A2075ED5200FE79F0 /* Images */,
 				FDEE41462075ED0C00FE79F0 /* AppDelegate.swift */,
 				FDEE41482075ED0C00FE79F0 /* ViewController.swift */,
 				FDEE414A2075ED0C00FE79F0 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				FDEE41522075ED0C00FE79F0 /* Info.plist */,
 			);
 			path = "Alien Animation Timer";
+			sourceTree = "<group>";
+		};
+		FDEE415A2075ED5200FE79F0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE41652075EE4900FE79F0 /* frame1.png */,
+				FDEE41682075EE4A00FE79F0 /* frame2.png */,
+				FDEE41692075EE4A00FE79F0 /* frame3.png */,
+				FDEE41662075EE4900FE79F0 /* frame4.png */,
+				FDEE41672075EE4A00FE79F0 /* frame5.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEE416B2075EE4A00FE79F0 /* frame4.png in Resources */,
 				FDEE41512075ED0C00FE79F0 /* LaunchScreen.storyboard in Resources */,
+				FDEE416A2075EE4A00FE79F0 /* frame1.png in Resources */,
+				FDEE416E2075EE4A00FE79F0 /* frame3.png in Resources */,
 				FDEE414E2075ED0C00FE79F0 /* Assets.xcassets in Resources */,
+				FDEE416D2075EE4A00FE79F0 /* frame2.png in Resources */,
 				FDEE414C2075ED0C00FE79F0 /* Main.storyboard in Resources */,
+				FDEE416C2075EE4A00FE79F0 /* frame5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
